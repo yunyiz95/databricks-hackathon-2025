@@ -54,7 +54,7 @@ llm = ChatDatabricks(endpoint=LLM_ENDPOINT_NAME)
 
 from langchain_nimble import NimbleSearchRetriever
 
-api_key = 'YWNjb3VudC1uaWFnYXJhX2JvdHRsaW5nXzQ2b3Z2NS1waXBlbGluZS1uaW1ibGVhcGk6OWQ0MWw1NUNFQzJD'
+api_key = ''
 # links = ['https://maps.google.com/']
 retriever = NimbleSearchRetriever(k=3, 
                                   api_key=api_key,
